@@ -1,0 +1,37 @@
+/*
+Error: Inconsistent indentation: "\t\t \t" was used for indentation, but the rest of the document was indented using 1 tab.
+        on line 90 of D:\__A_My_sites\MissJulliet\css\sass\main.sass
+
+85: 	ul
+86: 		margin: 0
+87: 		li
+88: 			display: inline-block
+89: 			padding:  10px 3px 0
+90: 		 	a
+91: 				display: block
+92: 				padding: 0
+93: 				text-transform: uppercase
+94: 				line-height: 20px
+95: 				font-size: 14px
+
+Backtrace:
+D:\__A_My_sites\MissJulliet\css\sass\main.sass:90
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:473:in `block in tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `each_with_index'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:396:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: \"\t\t \t\" was used for indentation, but the rest of the document was indented using 1 tab.\A         on line 90 of D:\__A_My_sites\MissJulliet\css\sass\main.sass\A \A 85: 	ul\A 86: 		margin: 0\A 87: 		li\A 88: 			display: inline-block\A 89: 			padding:  10px 3px 0\A 90: 		 	a\A 91: 				display: block\A 92: 				padding: 0\A 93: 				text-transform: uppercase\A 94: 				line-height: 20px\A 95: 				font-size: 14px"; }

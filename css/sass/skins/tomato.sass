@@ -1,0 +1,84 @@
+@import "../bourbon/bourbon"
+
+$color: #3d3d3d //Theme skin
+$color2: #8B6797 //Theme skin
+$bg_dark: #222
+$bg_light: #fafafa
+$bg_not_bright: #FBFBFB
+$black: #000
+$light: #fff
+$menu-toggle: #060606
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	background: $color
+p
+	color: $black
+
+.bg_dark_color
+	background-color: $bg_dark
+	color: #fff
+.bg_light_color
+	background-color: #fff
+	color: $black
+.bg_not_bright
+	background-color: $bg_not_bright
+	color: $black
+.color_element
+	color: $color2
+.color_bg
+	background-color: $color2
+.color_border
+	border-color: $color2
+
+
+.s_descr
+	+kerning(3)
+
+header
+	background: $color
+
+header
+	.social
+		a:hover
+			color: $black
+
+.main_menu a
+	color: $light
+
+.menu-toggle
+	background: $menu-toggle
+	color: $light
+
+.main_menu li a:hover,
+.main_menu li.active a
+	background: $light
+	color: $black
+	border-bottom: 1px solid $black
+
+.main_footer
+	background: $black
+	color: $light
+
+nav a, .s_portfolio li, h2
+	+kerning(2)
+
+.s_portfolio
+	li
+		color: $bg_light
+	li.active
+		border-bottom: 1px solid #light
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+
+.applicationButton:hover
+	background: $color
+	color: #fff
