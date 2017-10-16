@@ -332,7 +332,11 @@
 	<script type="text/javascript" src="js/boot_slider.js"></script>
 	<script src="js/common.js"></script>
 	<script>
-
+$(function() {
+	    if($(window).width()<480) {
+	        $('#home').css('display', 'none');
+	    }
+	}); 
 	</script>
 
 </body>
